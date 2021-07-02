@@ -19,7 +19,7 @@ nav.innerHTML = `
       <a class="nav-link" href="./vote.html">Cast Vote</a>
     </li>
     <li class="nav-item">
-      <a class="nav-link" href="./blockvote-card.html">My BlockVote Card</a>
+      <a class="nav-link" href="./voteCard.html">Vote Card</a>
     </li>
 
   </ul>

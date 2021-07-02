@@ -23,11 +23,11 @@ contract Election {
     );
 
     constructor () public {
-        addCandidate("Candidate 1","Bharatiya Janata Party");
-        addCandidate("Candidate 2","Indian National Congress");
-        addCandidate("Candidate 3","Communist Party Of India (Marxist)");
-        addCandidate("Candidate 4","All India Trinamool Congress");
-        addCandidate("Candidate 5","Bahujan Samaj Party");
+        addCandidate("Candidate 1","Party 1");
+        addCandidate("Candidate 2","Party 2");
+        addCandidate("Candidate 3","Party 3");
+        addCandidate("Candidate 4","Party 4");
+        addCandidate("Candidate 5","Party 5");
         addCandidate("NOTA","None of the above");
     }
 

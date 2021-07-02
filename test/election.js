@@ -17,32 +17,32 @@ contract("Election", function(accounts) {
       return electionInstance.candidates(1);
     }).then(function(candidate) {
       assert.equal(candidate[0], 1, "contains the correct id");
-      assert.equal(candidate[1], "Raju Bista", "contains the correct name");
-      assert.equal(candidate[2], "Bharatiya Janata Party", "contains the correct party");
+      assert.equal(candidate[1], "Candidate 1", "contains the correct name");
+      assert.equal(candidate[2], "Party 1", "contains the correct party");
       assert.equal(candidate[3], 0, "contains the correct votes count");
       return electionInstance.candidates(2);
     }).then(function(candidate) {
       assert.equal(candidate[0], 2, "contains the correct id");
-      assert.equal(candidate[1], "Sankar Malakar", "contains the correct name");
-      assert.equal(candidate[2], "Indian National Congress", "contains the correct party");
+      assert.equal(candidate[1], "Candidate 2", "contains the correct name");
+      assert.equal(candidate[2], "Party 2", "contains the correct party");
       assert.equal(candidate[3], 0, "contains the correct votes count");
       return electionInstance.candidates(3);
     }).then(function(candidate) {
       assert.equal(candidate[0], 3, "contains the correct id");
-      assert.equal(candidate[1], "Saman Pathak", "contains the correct name");
-      assert.equal(candidate[2], "Communist Party Of India (Marxist)", "contains the correct party");
+      assert.equal(candidate[1], "Candidate 3", "contains the correct name");
+      assert.equal(candidate[2], "Party 3", "contains the correct party");
       assert.equal(candidate[3], 0, "contains the correct votes count");
       return electionInstance.candidates(4);
     }).then(function(candidate) {
       assert.equal(candidate[0], 4, "contains the correct id");
-      assert.equal(candidate[1], "Amar Singh Rai", "contains the correct name");
-      assert.equal(candidate[2], "All India Trinamool Congress", "contains the correct party");
+      assert.equal(candidate[1], "Candidate 4", "contains the correct name");
+      assert.equal(candidate[2], "Party 4", "contains the correct party");
       assert.equal(candidate[3], 0, "contains the correct votes count");
       return electionInstance.candidates(5);
     }).then(function(candidate) {
       assert.equal(candidate[0], 5, "contains the correct id");
-      assert.equal(candidate[1], "Sudip Mandal", "contains the correct name");
-      assert.equal(candidate[2], "Bahujan Samaj Party", "contains the correct party");
+      assert.equal(candidate[1], "Candidate 5", "contains the correct name");
+      assert.equal(candidate[2], "Party 5", "contains the correct party");
       assert.equal(candidate[3], 0, "contains the correct votes count");
       return electionInstance.candidates(6);
     }).then(function(candidate) {
